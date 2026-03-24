@@ -1,9 +1,70 @@
 body {
-  padding-top: 90px;
-  font-family: "Arial";
-  background:"img/tile.jpg"
+  padding: 0px;
+  margin: 0px;
+  margin: auto;
+  width: 1200px;
+  font-size: 11pt;
+  background-image: url("../img/tile.jpg");
+  color: white;
 }
 
-.navbar-dark {
-  background-color: #144178;
+main {
+  margin-top: 20px;
+  float: left;
+  width: 100%;
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  text-align: left;
+
+}
+
+
+
+.side-column {
+  width: 176px;
+  height: 650px;
+  float: left;
+  padding-left:8px;
+  padding-right: 8px;
+}
+
+.center-column {
+  border: 1px white solid;
+  width: 800px;
+  height: 650px;
+  float: left;
+  backdrop-filter: blur(5px);
+}
+
+.side-box {
+  backdrop-filter: blur(5px);
+  border: 1px white solid;
+  padding: 4px;
+
+}
+
+.navigation-box {
+  height: 283px;
+  margin-bottom: 20px;
+}
+
+.links-box {
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.gif-box {
+  height: 100px;
+}
+
+.login-box {
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.chat-box {
+  height: 400px;
 }
