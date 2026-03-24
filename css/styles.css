@@ -1,0 +1,9 @@
+body {
+  padding-top: 90px;
+  font-family: "Arial";
+  background:"img/tile.jpg"
+}
+
+.navbar-dark {
+  background-color: #144178;
+}
