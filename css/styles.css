@@ -32,16 +32,18 @@ header {
 }
 
 .center-column {
-  border: 1px white solid;
+  
+  
   width: 800px;
   height: 650px;
   float: left;
-  backdrop-filter: blur(5px);
+  
 }
 
 .side-box {
   backdrop-filter: blur(5px);
   border: 1px white solid;
+  border-radius: 5px;
   padding: 4px;
 
 }
@@ -49,15 +51,17 @@ header {
 .navigation-box {
   height: 233px;
   margin-bottom: 20px;
+  padding:5px;
 }
 
 .links-box {
   height: 200px;
-  margin-bottom: 20px;
+  
 }
 
 .gif-box {
   height: 150px;
+  margin-bottom: 20px;
 }
 
 .login-box {
@@ -82,4 +86,15 @@ header {
 
 h2 {
   font-size:13pt;
+}
+
+.gif-box img {
+  width:100%;
+}
+
+.post {
+  border: 1px white solid;
+  border-radius: 5px;
+  width:100%;
+  backdrop-filter: blur(5px);
 }
