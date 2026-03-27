@@ -6,10 +6,10 @@ body {
   font-size: 11pt;
   background-image: url("../img/tile.jpg");
   color: white;
+  font-family: Helvetica, sans-serif;
 }
 
 main {
-  margin-top: 20px;
   float: left;
   width: 100%;
 }
@@ -18,10 +18,13 @@ header {
   height: 80px;
   width: 100%;
   text-align: left;
-  font-family: "Comic Sans MS", sans-serif;
+  font-family: "Patrick Hand", cursive;
+  color: rgb(64, 213, 224);
 }
 
-
+header h1 {
+  font-size: 40pt;
+}
 
 .side-column {
   width: 176px;
@@ -32,17 +35,24 @@ header {
 }
 
 .center-column {
-  
-  
   width: 800px;
   height: 650px;
   float: left;
-  
+  overflow-y: auto;
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.center-column::-webkit-scrollbar {
+  display: none;
 }
 
 .side-box {
   backdrop-filter: blur(5px);
-  border: 1px white solid;
+  border: 2px white solid;
   border-radius: 5px;
   padding: 4px;
 
@@ -51,12 +61,16 @@ header {
 .navigation-box {
   height: 233px;
   margin-bottom: 20px;
-  padding:5px;
+  padding: 5px;
+}
+
+h2 {
+  color: rgb(255, 174, 0);
 }
 
 .links-box {
-  height: 200px;
-  
+  height: 191px;
+
 }
 
 .gif-box {
@@ -70,31 +84,70 @@ header {
 }
 
 .chat-box {
-  height: 413px;
+  height: 407px;
 }
 
 
 .link {
-  color:white;
-  font-weight:bold;
-  font-size:14pt;
+  color: white;
+  font-weight: bold;
+  font-size: 14pt;
 }
 
 .link:hover {
-  color:rgb(64, 213, 224);
+  color: rgb(64, 213, 224);
 }
 
 h2 {
-  font-size:13pt;
+  font-size: 13pt;
 }
 
 .gif-box img {
-  width:100%;
+  width: 100%;
 }
 
 .post {
-  border: 1px white solid;
+  border: 2px white solid;
   border-radius: 5px;
-  width:100%;
+  width: 778px;
   backdrop-filter: blur(5px);
+  margin-bottom: 20px;
+  float: left;
+  padding: 8px;
+}
+
+.post-title {
+  color: rgb(64, 213, 224);
+}
+
+.last-post {
+  margin-bottom: 0px;
+}
+
+footer {
+  color: rgb(116, 116, 116);
+  padding-left: 120px;
+  height: 100px;
+
+}
+
+footer h3 {
+  float: left;
+  margin-top: 30px;
+  font-size: 12pt;
+}
+
+footer ul {
+  list-style-type: none;
+  float: left;
+}
+
+footer li {
+
+  margin-right: 10px;
+
+}
+
+footer li a {
+  color: rgb(116, 116, 116);
 }
