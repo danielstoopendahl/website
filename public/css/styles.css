@@ -7,6 +7,7 @@ body {
   background-image: url("../img/tile.jpg");
   color: white;
   font-family: Helvetica, sans-serif;
+  /* cursor: url("../img/cursor.png"), auto; */
 }
 
 main {
