@@ -20,11 +20,12 @@ header {
   width: 100%;
   text-align: left;
   font-family: "Patrick Hand", cursive;
-  color: rgb(64, 213, 224);
 }
 
-header h1 {
-  font-size: 40pt;
+.title {
+  text-decoration: none;
+  color: rgb(64, 213, 224);
+  font-size: 20pt;
 }
 
 .side-column {
@@ -87,7 +88,6 @@ h2 {
 .chat-box {
   height: 407px;
 }
-
 
 .link {
   color: white;
